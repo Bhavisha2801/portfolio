@@ -1,0 +1,46 @@
+.project-heading h1{
+    font-size: 50px;
+    color: #a57e8a;
+    font-weight: 800;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.project-img a img{
+    width: 100%;
+    height: 200px;
+}
+
+.projInfoText{
+    color: white;
+    margin-top: 4%;
+    padding: 2%;
+    line-height: 20px;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.project-main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+.project-card{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    gap: 7%;
+    justify-content: center;
+}
+
+.projOne{
+    width: 30%;
+    /* border: 1px solid white; */
+    padding: 1%;
+    border-radius: 4%;
+    /* background-color: rgb(22, 29, 29); */
+    box-shadow: 10px 10px 30px grey;
+}
