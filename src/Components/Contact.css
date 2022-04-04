@@ -1,4 +1,4 @@
-.contact-form form label{
+.contact-form>form>{
     color: white;
     font-size: 18px;
 }
@@ -16,7 +16,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-.contact-form>form>label{
+.contact-form>form>button{
     text-align: center;
     margin-left: 43%;
     margin-right: auto;
@@ -31,29 +31,12 @@
 .con{
     margin-left: -2%;
 }
-.submit-btn{
-    /* background-color: #a57e8a; */
-    margin-left: -5%;
-    font-size: larger;
-}
 .contact-main{
     margin: 10%;
 }
-button > i{
-    width: 90%;
-    height: 30px;
-    margin-left: 4%;
-    margin-right: 10%;
-    /* margin-top: 4%; */
-}
 
-.img{
-    width: 10%;
-    height:40px;
-    margin-left: 6%;
-    margin-right: 10%;
-    margin-top: 2%;
-}
+
+
 .contact-form a i{
     color: white;
     background-color: #a57e8a;
@@ -66,3 +49,82 @@ button > i{
     margin-left: 35%;
     margin-right: auto;
 }
+
+.fa-envelope{
+    background-color: #a57e8a;
+    /* width: 100%; */
+    color: white;
+    margin-left:-50%;
+    border: 1px solid white;
+}
+
+.form-btn{
+    background-color: black;
+    border: none;
+}
+
+
+@media only screen and (max-width:1224px){
+    .contact-form a i{
+        color: white;
+        background-color: #a57e8a;
+        text-align: center;
+        border-radius: 5%;
+        margin: 2%;
+    }
+    
+    .AnotherLinks{
+        margin-left: 25%;
+        margin-right: -50%;
+    }
+
+    
+    .contact-form>form>button{
+        text-align: center;
+        margin-left: 36%;
+        margin-right: auto;
+        /* border: 1px solid white; */
+        width: 30%;
+        height: 100px;
+    }
+    .fa-envelope{
+        background-color: #a57e8a;
+        /* width: 100%; */
+        color: white;
+        margin-left: 20%;
+        border: 1px solid white;
+    }
+    
+    .form-btn{
+        background-color: black;
+        border: none;
+    }
+    
+    
+    
+}
+
+
+@media only screen and (max-width:500px) {
+    .contact-form a i{
+        color: white;
+        background-color: #a57e8a;
+        text-align: center;
+        border-radius: 5%;
+        margin: 1%;
+    }
+    
+    .AnotherLinks{
+        margin-left: 15%;
+        /* margin-right: auto; */
+    }
+    .contact-form>form>button{
+        text-align: center;
+        margin-left: 30%;
+        margin-right: auto;
+        /* border: 1px solid white; */
+        width: 30%;
+        height: 100px;
+    }
+}
+

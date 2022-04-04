@@ -12,7 +12,8 @@ function Home(){
 
     return (
       <div className='home' id='home'>
-        <div className="home__bg">
+
+
           <div className='header d__flex align__items__center pxy__30'>
               <Link to="#home">
               <div className='logo'>
@@ -20,20 +21,21 @@ function Home(){
               </div>
               </Link>
 
-              <div className='navigation pxy__30'>
+              <div className='navigation'>
                   <ul className="navbar d__flex">
-                    <Link to="#home" smooth><li className='nav__items mx__15'>Home</li></Link>
-                    <Link to="#about" smooth><li className='nav__items mx__15'>About</li></Link>
-                    <Link to="#skills" smooth><li className='nav__items mx__15'>Skills</li></Link>
-                    <Link to="#projects" smooth><li className='nav__items mx__15'>Projects</li></Link>
-                    <Link to="#contact" smooth><li className='nav__items mx__15'>Contact</li></Link>
+                    <Link to="#home" smooth><li className='nav__items nav_fonts'>Home</li></Link>
+                    <Link to="#about" smooth><li className='nav__items nav_fonts'>About</li></Link>
+                    <Link to="#skills" smooth><li className='nav__items nav_fonts'>Skills</li></Link>
+                    <Link to="#projects" smooth><li className='nav__items nav_fonts'>Projects</li></Link>
+                    <Link to="#contact" smooth><li className='nav__items nav_fonts'>Contact</li></Link>
                   </ul>
               </div>
           </div>
-          {/* Home Content */}
+
+
+        <div className="home__bg">
             <div className='container'>
-                <div className='home__content'>
-                    <div className="home__meta">
+                  <div className="home__meta">
                       <h1 className="home__text pz__10">
                         Welcome to My portfolio
                       </h1>
@@ -46,12 +48,11 @@ function Home(){
                       <h4 className="home__text pz__10">
                         based in India
                       </h4>
-                    </div>
-                </div>
+                  </div>
             </div>
-        </div>
-        <div className='back-img'>
-          <img src={bimg} alt="" />
+            <div className='back-img'>
+              <img src={bimg} alt="" />
+            </div>
         </div>
       </div>
     )

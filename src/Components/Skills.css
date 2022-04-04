@@ -1,6 +1,6 @@
 .skill-card{
     width: 15%;
-    height: 150px;
+    height: 200px;
     background-color: rgb(85, 82, 78);
     border-radius: 10%;
     box-shadow: 10px 10px 30px grey;
@@ -10,7 +10,7 @@
 }
 
 .skill-card img{
-    margin-top: 18%;
+    margin-top: 10%;
     width: 40%;
 }
 .skill-card h3{
@@ -35,3 +35,47 @@
     margin-bottom: 2%;
     text-align: center;
 }
+
+@media only screen and (max-width:1224px){
+    .skill-card{
+        width: 15%;
+        height: 150px;
+        background-color: rgb(85, 82, 78);
+        border-radius: 10%;
+        box-shadow: 10px 10px 30px grey;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    
+    .skill-card img{
+        margin-top: 18%;
+        width: 40%;
+    }
+    .skill-card h3{
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (max-width:500px) {
+    .skill-card{
+        width: 30%;
+        height: 100px;
+        background-color: rgb(85, 82, 78);
+        border-radius: 10%;
+        box-shadow: 10px 10px 30px grey;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 3%;
+    }
+    
+    .skill-card img{
+        margin-top: 18%;
+        width: 40%;
+    }
+    .skill-card h3{
+        font-size: 15px;
+    }
+}
+

@@ -1,19 +1,15 @@
 import React from 'react'
 import './Contact.css'
-import email from '../Image/email.jpg'
-import insta from '../Image/insta.jpg'
-import linkedin from '../Image/linkedin.jpg'
 
 function Contact(){
     return (
       <div className='contact-main' id='contact'>
         <div className='contact-heading'>
-            <h1>Contact Me :-</h1>
+            <h1>Contact Me</h1>
         </div>
         <div className='contact-form'>
-          <form action="mailto:nayibhavisha@gmail.com" method="post" enctype="text/plain">
-            
-            <label><button type='submit' className='btn'><i class="fa-solid fa-envelope fa-3x"></i></button></label>
+          <form action="mailto:nayibhavisha@gmail.com" method="post"    enctype="text/plain">
+            <button type='submit' className='form-btn'><i class="fa-solid fa-envelope fa-3x"></i></button>
           </form>
           <div className='AnotherLinks'>
               <a href="https://www.instagram.com/bhavi__281/"><i class="fa-brands fa-instagram-square fa-3x"></i></a>

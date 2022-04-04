@@ -44,3 +44,45 @@
     /* background-color: rgb(22, 29, 29); */
     box-shadow: 10px 10px 30px grey;
 }
+
+
+@media only screen and (max-width:1224px){
+    .project-card{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        gap: 7%;
+        justify-content: center;
+    }
+    .projOne{
+        width: 80%;
+        /* border: 1px solid white; */
+        padding: 1%;
+        border-radius: 4%;
+        /* background-color: rgb(22, 29, 29); */
+        box-shadow: 10px 10px 30px grey;
+        margin-top: 5%;
+    }
+    
+}
+
+
+@media only screen and (max-width:500px) {
+    .project-card{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        gap: 7%;
+        justify-content: center;
+    }
+    .projOne{
+        width: 100%;
+        /* border: 1px solid white; */
+        padding: 1%;
+        border-radius: 4%;
+        /* background-color: rgb(22, 29, 29); */
+        box-shadow: 10px 10px 30px grey;
+        margin-top: 5%;
+    }
+}
+
