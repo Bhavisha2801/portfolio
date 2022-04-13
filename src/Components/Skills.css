@@ -38,7 +38,7 @@
 
 @media only screen and (max-width:1224px){
     .skill-card{
-        width: 15%;
+        width: 20%;
         height: 150px;
         background-color: rgb(85, 82, 78);
         border-radius: 10%;
@@ -60,7 +60,7 @@
 
 @media only screen and (max-width:500px) {
     .skill-card{
-        width: 30%;
+        width: 40%;
         height: 100px;
         background-color: rgb(85, 82, 78);
         border-radius: 10%;
