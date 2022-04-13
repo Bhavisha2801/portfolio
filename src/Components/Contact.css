@@ -61,6 +61,7 @@
 .form-btn{
     background-color: black;
     border: none;
+    cursor: pointer;
 }
 
 

@@ -18,7 +18,7 @@ function About(){
                 <p className='about-para'>I have completed my bachelor's in GTU in G.E.C, Modasa in the course of Information Technology. I have also undergone training of Full Stack Web Development at Masai school and internship in python(django) at Maxgen, Ahmedabad.I want to become a Full Stack Web Developer and want to work in the software industry and gain experiences related to my work. I am looking forward to work in software industry and build real world projects to increase my knowledge and experiences as a Full Stack Web Developer.</p>
 
                 <div className='down-btn'>
-                  <a href={resume} download>Resume</a>
+                  <a href={resume} target="_blank" download>Resume</a>
                 </div>
             </div>
         </div>

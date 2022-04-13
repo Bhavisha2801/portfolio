@@ -21,6 +21,8 @@ function Projects() {
                   <p className='projInfoText'>A construct Week Project among three students while doing training in Masai School.</p>
                   <h3>Languages Used : HTML , CSS</h3>
                   </a>
+                  <a target="_blank" href="https://github.com/Bhavisha2801/construct_week_1"><i className='fa-brands fa-github fa-3x'></i></a>
+                  <a target="_blank" href="https://f-l-y-plane.netlify.app/"><i className='fa-brands fa-portfolio fa-3x'></i></a>
               </div>
           </div>
           <div className='projOne'>
@@ -34,6 +36,8 @@ function Projects() {
                   <p className='projInfoText'>A construct Week Project among Four students while doing training in Masai School.</p>
                   <h3>Languages Used : HTML, CSS, JavaScript</h3>
                   </a>
+                  <a target="_blank" href="https://github.com/Bhavisha2801/Apollo_Clone"><i className='fa-brands fa-github fa-3x'></i></a>
+                  <a target="_blank" href="https://apolloclone.netlify.app/"><i className='fa-brands fa-portfolio fa-3x'></i></a>
               </div>
           </div>
         </div>

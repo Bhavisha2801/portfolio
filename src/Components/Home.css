@@ -9,6 +9,10 @@
     padding: 125px 0px ;
 }
 
+.navbar{
+    gap: 20px;
+}
+
 .home__bg{
     /* background-image: url(../Image/back_img.png); */
     background-color: #010101;
@@ -100,7 +104,7 @@ h4.home__text{
         width: 100%;
     }
     .nav__items{
-        font-size: 13px;
+        font-size: 14px;
         /* margin: 1%; */
         width: 60px;
     }
