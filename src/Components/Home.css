@@ -9,6 +9,10 @@
     padding: 125px 0px ;
 }
 
+.navbar{
+    gap: 14px;
+}
+
 .home__bg{
     /* background-image: url(../Image/back_img.png); */
     background-color: #010101;
