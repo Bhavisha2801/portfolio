@@ -12,7 +12,7 @@ function Projects() {
         <div className='project-card'>
           <div className='projOne'>
               <div className='project-img'>
-                <a href="https://f-l-y-plane.netlify.app/"><img src={projectOne} alt="" /></a>
+                <a href="https://f-l-y-plane.netlify.app/" target="_blank"><img src={projectOne} alt="" /></a>
               </div>
               <div className='project-info'>
                   <a href="https://f-l-y-plane.netlify.app/" target="_blank">
@@ -22,12 +22,11 @@ function Projects() {
                   <h3>Languages Used : HTML , CSS</h3>
                   </a>
                   <a target="_blank" href="https://github.com/Bhavisha2801/construct_week_1"><i className='fa-brands fa-github fa-3x'></i></a>
-                  <a target="_blank" href="https://f-l-y-plane.netlify.app/"><i className='fa-brands fa-portfolio fa-3x'></i></a>
               </div>
           </div>
           <div className='projOne'>
               <div className='project-img'>
-                <a href="https://apolloclone.netlify.app/"><img src={projectTwo} alt="" /></a>
+                <a href="https://apolloclone.netlify.app/" target="_blank"><img src={projectTwo} alt="" /></a>
               </div>
               <div className='project-info'>
                   <a href="https://apolloclone.netlify.app/" target="_blank">
@@ -37,7 +36,6 @@ function Projects() {
                   <h3>Languages Used : HTML, CSS, JavaScript</h3>
                   </a>
                   <a target="_blank" href="https://github.com/Bhavisha2801/Apollo_Clone"><i className='fa-brands fa-github fa-3x'></i></a>
-                  <a target="_blank" href="https://apolloclone.netlify.app/"><i className='fa-brands fa-portfolio fa-3x'></i></a>
               </div>
           </div>
         </div>
