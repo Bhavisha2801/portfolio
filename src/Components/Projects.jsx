@@ -15,7 +15,7 @@ function Projects() {
                 <a href="https://f-l-y-plane.netlify.app/"><img src={projectOne} alt="" /></a>
               </div>
               <div className='project-info'>
-                  <a href="https://f-l-y-plane.netlify.app/">
+                  <a href="https://f-l-y-plane.netlify.app/" target="_blank">
                   <h1>Fly Plane</h1>
                   <p className='projInfoText'>A Flyplane is a Travells Website, where you can find places to Travel and book tickets.</p>
                   <p className='projInfoText'>A construct Week Project among three students while doing training in Masai School.</p>
@@ -30,7 +30,7 @@ function Projects() {
                 <a href="https://apolloclone.netlify.app/"><img src={projectTwo} alt="" /></a>
               </div>
               <div className='project-info'>
-                  <a href="https://apolloclone.netlify.app/">
+                  <a href="https://apolloclone.netlify.app/" target="_blank">
                   <h1>Apollo Pharmacy</h1>
                   <p className='projInfoText'>A Apollo Pharmacy is a Medical website , where you can find medicines, consult with doctors online or you can book appointment to meet doctors ofline..</p>
                   <p className='projInfoText'>A construct Week Project among Four students while doing training in Masai School.</p>
