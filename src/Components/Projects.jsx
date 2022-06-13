@@ -2,6 +2,7 @@ import React from 'react'
 import './Projects.css'
 import projectOne from '../Image/proj-1.png'
 import projectTwo from '../Image/proj-2.png'
+import move_balls from '../Image/move_balls.png'
 
 function Projects() {
     return (
@@ -36,6 +37,20 @@ function Projects() {
                   <h3>Languages Used : HTML, CSS, JavaScript</h3>
                   </a>
                   <a target="_blank" href="https://github.com/Bhavisha2801/Apollo_Clone"><i className='fa-brands fa-github fa-3x'></i></a>
+              </div>
+          </div>
+          <div className='projOne'>
+          <div className='project-img'>
+                <a href="https://move-balls.vercel.app/" target="_blank"><img src={move_balls} alt="" /></a>
+              </div>
+              <div className='project-info'>
+                  <a href="https://move-balls.vercel.app/" target="_blank">
+                  <h1>Move Balls</h1>
+                  <p className='projInfoText'>Move balls is simple state management project using ReactJs, In which balls can be managed using the state and we can undo the balls into their real position also.Here color of balls are generated rendomly each time we load the React application.</p>
+                  <p className='projInfoText'>Move balls is an Individual practice project to increase a ReactJs state management understanding.</p>
+                  <h3>Languages Used : HTML, CSS, JavaScript, ReactJs</h3>
+                  </a>
+                  <a target="_blank" href="https://github.com/Bhavisha2801/move-balls"><i className='fa-brands fa-github fa-3x'></i></a>
               </div>
           </div>
         </div>
